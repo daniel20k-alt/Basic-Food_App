@@ -6,16 +6,20 @@
 //
 
 import UIKit
+//import MapKit
 
 class ViewController: UIViewController {
+    //aici de unit IBOutletu la MKMapView
+//     @IBOutlet var mapView: MKMapView!
     
-    
-    @IBOutlet weak var PanouDisplayRezultat: UIImageView!	
+    @IBOutlet weak var PanouDisplayRezultat: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+//        let locatie1 = MapAddress(denumire: "Denumire local", coordinate: CLLocationCoordinate2D(latitude: <#T##CLLocationDegrees#>, longitude: <#T##CLLocationDegrees#>), workingHours: "From 10:00 until 22:00")
     }
-
+    
     @IBAction func Button_1_Dessert_press(_ sender: Any) {
 
                 let Dessert_random_number = arc4random_uniform(14)
