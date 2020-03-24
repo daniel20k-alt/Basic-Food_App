@@ -12,6 +12,7 @@
 		EE2E146621E16872009338E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2E146421E16872009338E5 /* Main.storyboard */; };
 		EE2E146821E16875009338E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2E146721E16875009338E5 /* Assets.xcassets */; };
 		EE2E146B21E16875009338E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2E146921E16875009338E5 /* LaunchScreen.storyboard */; };
+		EE4A6BB7242A9AE80057B72D /* MapAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4A6BB6242A9AE80057B72D /* MapAddress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EE2E146721E16875009338E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE2E146A21E16875009338E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE2E146C21E16875009338E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4A6BB6242A9AE80057B72D /* MapAddress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapAddress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				EE2E146021E16872009338E5 /* AppDelegate.swift */,
 				EE2E146221E16872009338E5 /* ViewController.swift */,
 				EE2E146421E16872009338E5 /* Main.storyboard */,
+				EE4A6BB6242A9AE80057B72D /* MapAddress.swift */,
 				EE2E146721E16875009338E5 /* Assets.xcassets */,
 				EE2E146921E16875009338E5 /* LaunchScreen.storyboard */,
 				EE2E146C21E16875009338E5 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE2E146321E16872009338E5 /* ViewController.swift in Sources */,
+				EE4A6BB7242A9AE80057B72D /* MapAddress.swift in Sources */,
 				EE2E146121E16872009338E5 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
