@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UAf-X5-dcZ">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="UAf-X5-dcZ">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,24 +13,24 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Basic_Food_App" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="U76-oL-WJ2">
-                                <rect key="frame" x="2" y="244" width="371" height="421"/>
+                            <stackView opaque="NO" contentMode="scaleAspectFit" axis="vertical" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="U76-oL-WJ2">
+                                <rect key="frame" x="2" y="250" width="410" height="484"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="fsv-1Y-M3w">
-                                        <rect key="frame" x="0.0" y="0.0" width="371" height="104"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="fsv-1Y-M3w">
+                                        <rect key="frame" x="0.0" y="0.0" width="410" height="117.33333333333333"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="249" verticalHuggingPriority="248" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kwO-1G-QFN" userLabel="Button_1_Dessert">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="104"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="202.66666666666666" height="117.33333333333333"/>
                                                 <state key="normal" title="Button" image="desserts"/>
                                                 <connections>
                                                     <action selector="Button_1_Dessert_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N6o-bn-fRE"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="249" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tEl-bC-Gu5" userLabel="Button_2_FastFood">
-                                                <rect key="frame" x="186.5" y="0.0" width="184.5" height="104"/>
+                                                <rect key="frame" x="207.66666666666663" y="0.0" width="202.33333333333337" height="117.33333333333333"/>
                                                 <state key="normal" title="Button" image="fast_food"/>
                                                 <connections>
                                                     <action selector="Button_2_FastFood_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uzl-Bg-uFt"/>
@@ -39,11 +39,11 @@
                                         </subviews>
                                         <color key="tintColor" red="0.037329579410000001" green="0.1039931586" blue="0.42421478429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ayw-4S-dl8">
-                                        <rect key="frame" x="0.0" y="106" width="371" height="103.5"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="ayw-4S-dl8">
+                                        <rect key="frame" x="0.0" y="122.33333333333331" width="410" height="117.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZEK-5C-k0T" userLabel="Button_3_Pasta">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="103.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="202.66666666666666" height="117.33333333333333"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" button="YES" image="YES"/>
                                                 </accessibility>
@@ -53,7 +53,7 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5a-fS-UKy" userLabel="Button_4_Pizza">
-                                                <rect key="frame" x="186.5" y="0.0" width="184.5" height="103.5"/>
+                                                <rect key="frame" x="207.66666666666663" y="0.0" width="202.33333333333337" height="117.33333333333333"/>
                                                 <state key="normal" title="Button" image="pizza_food"/>
                                                 <connections>
                                                     <action selector="Button_4_Pizza_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xym-P6-l9R"/>
@@ -61,18 +61,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="8Nz-82-YYS">
-                                        <rect key="frame" x="0.0" y="211.5" width="371" height="104"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="8Nz-82-YYS">
+                                        <rect key="frame" x="0.0" y="244.66666666666669" width="410" height="117"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgh-PK-hyu" userLabel="Button_5_LilDFood">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="104"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="202.66666666666666" height="117"/>
                                                 <state key="normal" title="Button" image="d_food"/>
                                                 <connections>
                                                     <action selector="Button_5_LilDFood_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZCU-nn-hC7"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9x-Ac-Y6b" userLabel="Button_6_CoffeeAndTea">
-                                                <rect key="frame" x="186.5" y="0.0" width="184.5" height="104"/>
+                                                <rect key="frame" x="207.66666666666663" y="0.0" width="202.33333333333337" height="117"/>
                                                 <state key="normal" title="Button" image="CoffeeAndTea"/>
                                                 <connections>
                                                     <action selector="Button_6_CoffeeAndTea_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fTI-cK-l8B"/>
@@ -80,18 +80,18 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="top" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-lu-Vrd">
-                                        <rect key="frame" x="0.0" y="317.5" width="371" height="103.5"/>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="o3r-lu-Vrd">
+                                        <rect key="frame" x="0.0" y="366.66666666666663" width="410" height="117.33333333333331"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u6F-qa-1tz" userLabel="Button_7_RandomFood">
-                                                <rect key="frame" x="0.0" y="0.0" width="184.5" height="103.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="202.66666666666666" height="117.33333333333333"/>
                                                 <state key="normal" title="Button" image="random_food"/>
                                                 <connections>
                                                     <action selector="Button_7_RandomFood_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xOD-Vf-gWQ"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R5G-4H-8Bk" userLabel="Button_8_SaladAndFish">
-                                                <rect key="frame" x="186.5" y="0.0" width="184.5" height="103.5"/>
+                                                <rect key="frame" x="207.66666666666663" y="0.0" width="202.33333333333337" height="117.33333333333333"/>
                                                 <state key="normal" title="Button" image="salad_fish_food"/>
                                                 <connections>
                                                     <action selector="Button_8_SaladAndFish_press:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MYb-bd-uyb"/>
@@ -102,7 +102,7 @@
                                 </subviews>
                             </stackView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Bent-Question-Marks" translatesAutoresizingMaskIntoConstraints="NO" id="S2X-kh-JVv">
-                                <rect key="frame" x="2" y="42" width="371" height="200"/>
+                                <rect key="frame" x="8" y="42" width="398" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="200" id="Vw4-ZO-xD7"/>
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="lDo-rv-ENx"/>
@@ -111,18 +111,13 @@
                         </subviews>
                         <color key="backgroundColor" red="0.69239619006849318" green="0.74668340894931506" blue="0.94327910958904104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="S2X-kh-JVv" secondAttribute="trailing" constant="2" id="Its-rM-PXB"/>
                             <constraint firstItem="U76-oL-WJ2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="Lvf-Sz-SnQ"/>
-                            <constraint firstAttribute="trailing" secondItem="S2X-kh-JVv" secondAttribute="trailing" constant="2" id="Psh-MV-oOz"/>
-                            <constraint firstItem="S2X-kh-JVv" firstAttribute="top" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Sk0-SR-VQc"/>
+                            <constraint firstAttribute="trailing" secondItem="S2X-kh-JVv" secondAttribute="trailing" constant="8" id="Psh-MV-oOz"/>
                             <constraint firstItem="S2X-kh-JVv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-2" id="Tqr-5m-CRq"/>
-                            <constraint firstItem="S2X-kh-JVv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="Vsd-Ow-1Qc"/>
+                            <constraint firstItem="S2X-kh-JVv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Vsd-Ow-1Qc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="U76-oL-WJ2" secondAttribute="trailing" constant="2" id="acn-nZ-15t"/>
-                            <constraint firstItem="S2X-kh-JVv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-2" id="j0K-1T-dvK"/>
-                            <constraint firstItem="U76-oL-WJ2" firstAttribute="top" secondItem="S2X-kh-JVv" secondAttribute="bottom" constant="2" id="jSc-67-uzH"/>
-                            <constraint firstItem="S2X-kh-JVv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="2" id="k1p-b7-CsD"/>
+                            <constraint firstItem="U76-oL-WJ2" firstAttribute="top" secondItem="S2X-kh-JVv" secondAttribute="bottom" constant="8" id="jSc-67-uzH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="U76-oL-WJ2" secondAttribute="bottom" constant="2" id="poe-vP-BfX"/>
-                            <constraint firstItem="S2X-kh-JVv" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-2" id="vs9-Uo-IrU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -138,10 +133,11 @@
         <!--Navigation Controller-->
         <scene sceneID="Kzx-He-aVv">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lf2-N8-Vzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UAf-X5-dcZ" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6rB-94-Prz">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -149,7 +145,6 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="6jv-lv-2aP"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lf2-N8-Vzh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
         </scene>
